@@ -1,48 +1,68 @@
-# 🎯 **Pop Culture Quiz Game**  
-*A Sleek, Interactive Quiz Experience*
+# Quiz App
 
-![Quiz Game Banner]
+An interactive quiz application built with React featuring multiple-choice questions, score tracking, and instant feedback.
 
-<div align="center">
-  
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![Responsive](https://img.shields.io/badge/Responsive-Yes-4CAF50?style=for-the-badge)
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+![Quiz App Screenshot](./screenshot.png)
 
-  **Live Demo • Zero Dependencies • Fun & Educational**
+**🔗 Live Demo:** [View Live Demo](https://kevinwangombe.github.io/quiz-app)
 
-</div>
+## ✨ Features
 
-## ✨ **Features That Shine**
+- Multiple-choice quiz questions
+- Real-time score tracking
+- Instant feedback on answers
+- Clean, modern UI
+- Responsive design (mobile, tablet, desktop)
+- Final score summary
 
-| Feature | Description |
-|---------|-------------|
-| ⚡ **Instant Play** | No installation needed - runs directly in browser |
-| 🎨 **Visual Appeal** | Modern gradients, smooth animations, shadow effects |
-| ⏱️ **Time Challenge** | 30-second timer with visual countdown |
-| 🎯 **Instant Feedback** | Color-coded responses (green=correct, red=wrong) |
-| 📱 **Responsive Design** | Perfect on desktop, tablet, and mobile |
-| 🔄 **One-Click Restart** | Play multiple times with reset button |
-| 📊 **Progress Tracking** | Visual progress bar shows advancement |
+## 🛠️ Tech Stack
 
-## 🚀 **Quick Start**
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- HTML5
 
-### **Method 1: Direct Browser Play**
+## 🚀 Quick Start
+
 ```bash
-# Simply open index.html in your browser
-# That's it! No installation required!
-
 # Clone the repository
-git clone https://github.com/kevinwangombe/quiz-app.git
+git clone https://github.com/kevinwangombe/quiz-app
 
-# Navigate to project folder
-cd quiz-app
+# Install dependencies
+npm install
 
-# Open in browser
-open index.html  # macOS
-# or
-start index.html # Windows
-# or
-xdg-open index.html # Linux
+# Start development server
+npm start
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/    # Reusable UI components
+├── data/          # Quiz questions data
+├── App.jsx        # Main app component
+└── index.js       # Entry point
+```
+
+## 📸 Screenshots
+
+![Quiz Interface](./screenshot.png)
+
+## 🎯 What I Learned
+
+- React state management
+- Component composition
+- Conditional rendering
+- Event handling in React
+
+## 🤝 Author
+
+**Kevin Wang'ombe**
+- GitHub: [@kevinwangombe](https://github.com/kevinwangombe)
+- Email: kevinwangombe192@gmail.com
+- Twitter: [@kevin_kagunda](https://x.com/kevin_kagunda)
+
+## 📄 License
+
+MIT License - feel free to use this code for your own projects.
